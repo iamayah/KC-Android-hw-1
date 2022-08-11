@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkk"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="76dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="GRADE CALCULATOR"
+        android:textColor="#E13C83"
+        android:textColorHighlight="#1C1414"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:hint="quizes 15%"
+        android:inputType="textPersonName"
+        android:shadowColor="#090606"
+        android:textColorHint="#E91E63" />
+
+    <EditText
+        android:id="@+id/hw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quiz"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="homework15%"
+        android:inputType="textPersonName"
+        android:shadowColor="#090606"
+        android:textColorHint="#E91E63" />
+
+    <EditText
+        android:id="@+id/mt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hw"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="midterms 20%"
+        android:inputType="textPersonName"
+        android:shadowColor="#090606"
+        android:textColorHint="#E91E63" />
+
+    <EditText
+        android:id="@+id/ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hw"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="final 40%"
+        android:inputType="textPersonName"
+        android:shadowColor="#090606"
+        android:textColorHint="#E91E63" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="168dp"
+        android:text="calculate"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/rslt"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="170dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="RESULT"
+        android:textColor="#E91E63"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/rstbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rslt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="37dp"
+        android:text="RESET" />
+
+
+</RelativeLayout>
